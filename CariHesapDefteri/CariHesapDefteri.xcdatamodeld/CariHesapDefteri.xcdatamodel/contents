@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CariIsim" representedClassName="CariIsim" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CariKayit" representedClassName="CariKayit" syncable="YES" codeGenerationType="class">
+        <attribute name="aciklama" optional="YES" attributeType="String"/>
+        <attribute name="alici" optional="YES" attributeType="String"/>
+        <attribute name="borc" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cari_hesap" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tarih" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>
